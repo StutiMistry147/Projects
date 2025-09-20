@@ -1,4 +1,4 @@
-// -------------------- Theme Toggle --------------------
+
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
 
@@ -6,7 +6,6 @@ themeToggle.addEventListener('click', () => {
     body.classList.toggle('dark-mode');
 });
 
-// -------------------- Back to Top Button --------------------
 const backToTop = document.getElementById('back-to-top');
 window.addEventListener('scroll', () => {
     if (window.scrollY > 300) {
@@ -20,7 +19,6 @@ backToTop.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-// -------------------- Animated Hero Typing --------------------
 const tagline = document.querySelector('.tagline');
 const phrases = [
     "Python, C++, Web Development & Cybersecurity Enthusiast",
@@ -54,7 +52,6 @@ function eraseEffect() {
 
 document.addEventListener('DOMContentLoaded', typeEffect);
 
-// -------------------- Project Card Scroll Animation --------------------
 const cards = document.querySelectorAll('.project-card');
 
 const observer = new IntersectionObserver(entries => {
