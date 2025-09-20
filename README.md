@@ -6,7 +6,7 @@ This repository contains all the projects I create to enhance my skills and show
 
 ---
 
-## 🛠️ Skills & Technologies
+## Skills & Technologies
 
 ### C++
 - Data Structures & Algorithms
@@ -26,10 +26,4 @@ This repository contains all the projects I create to enhance my skills and show
 - Web Scraping
 - Machine Learning & AI (beginner projects)
 - GUI Development (Tkinter, PyQt, CustomTkinter)
-
----
-
-## 📂 Projects Structure
-
-Projects are organized by domain for easy navigation:
 
