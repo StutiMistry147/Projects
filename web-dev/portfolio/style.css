@@ -1,4 +1,4 @@
-/* Fonts & Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Hero Section */
+
 .hero {
     height: 100vh;
     background: linear-gradient(135deg, #ffd1dc, #a0e7e5);
@@ -41,7 +41,7 @@ body {
     background-color: #ff6f91;
 }
 
-/* Sections */
+
 section {
     padding: 60px 20px;
     text-align: center;
@@ -50,7 +50,7 @@ section {
     background-color: #fffaf0;
 }
 
-/* Skills */
+
 .skills span {
     background-color: #ffe4e1;
     padding: 5px 15px;
@@ -59,7 +59,7 @@ section {
     display: inline-block;
 }
 
-/* Projects Grid */
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -92,7 +92,7 @@ section {
     font-size: 12px;
 }
 
-/* Contact */
+
 .socials a img {
     width: 40px;
     margin: 0 10px;
@@ -102,14 +102,14 @@ section {
     transform: scale(1.2);
 }
 
-/* Footer */
+
 footer {
     padding: 20px;
     background-color: #ffd1dc;
     color: white;
     font-weight: 600;
 }
-/* Back to top button */
+
 #back-to-top {
     position: fixed;
     bottom: 30px;
@@ -128,7 +128,7 @@ footer {
     transform: scale(1.2);
 }
 
-/* Dark Mode */
+
 body.dark-mode {
     background-color: #1e1e2f;
     color: #f0f4f8;
@@ -149,7 +149,7 @@ body.dark-mode .btn:hover {
     background-color: #4f46e5;
 }
 
-/* Project Card Scroll Animation */
+
 .project-card {
     background-color: #ffffff;
     padding: 20px;
@@ -157,13 +157,13 @@ body.dark-mode .btn:hover {
     box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 
-    /* NEW: Flex layout to separate content and button */
+    
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* pushes button to bottom */
-    height: 100%; /* ensures all cards same height in grid */
+    justify-content: space-between; 
+    height: 100%; 
 }
 
 .project-card .btn {
-    margin-top: 15px; /* space from content above */
+    margin-top: 15px; 
 }
