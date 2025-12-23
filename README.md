@@ -16,7 +16,7 @@ This repository contains all the projects I create to enhance my skills and show
 
 ### Web Development
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Python (Flask/Django)
+- **Backend:** Node.js, Python
 - Responsive Design & UI/UX
 - RESTful APIs
 
@@ -25,5 +25,5 @@ This repository contains all the projects I create to enhance my skills and show
 - Data Analysis & Visualization
 - Web Scraping
 - Machine Learning & AI (beginner projects)
-- GUI Development (Tkinter, PyQt, CustomTkinter)
+- GUI Development (Tkinter, CustomTkinter)
 
