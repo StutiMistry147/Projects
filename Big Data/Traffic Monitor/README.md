@@ -29,11 +29,11 @@ This project demonstrates a Live Stream Processing pipeline. It simulates real-t
 ```
 2. <ins>Running the Pipeline</ins> : You will need two terminal tabs open simultaneously
 ```
-    #terminal 1
+    # Terminal 1
     source venv/bin/activate
     python3 simulator.py
 
-    #terminal 2
+    # Terminal 2
     source venv/bin/activate
     python3 app.py
 ```
