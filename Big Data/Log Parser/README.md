@@ -14,9 +14,9 @@ This project is a high-speed data pipeline designed to process massive server lo
 - Analysis Layer: A Python script reads the refined data (CSV) and performs a "Top N" frequency analysis to identify potential security threats or broken links.
 
 ## How To Run : 
-1. _Generate the data_: 
-                      python3 gen_logs.py
+1. _Generate the data_:
+   ```python3 gen_logs.py```
 2. _Compile the high-performance parser_ :
-                      g++ -O3 parser.cpp -o parser
-3. _Execute the pipeline_ : 
-                      ./parser && python3 analyzer.py
+   ```g++ -O3 parser.cpp -o parser```
+3.  _Execute the pipeline_ : 
+   ```./parser && python3 analyzer.py```
