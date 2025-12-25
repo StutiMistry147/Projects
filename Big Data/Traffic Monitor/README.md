@@ -3,8 +3,8 @@
 This project demonstrates a Live Stream Processing pipeline. It simulates real-time website traffic, stores the data in a relational database, and visualizes live analytics through a web-based dashboard. This mimics how modern platforms monitor server health and user activity.
 
 ## Tools :
-- Python: Used for the data simulation and the backend web server.
-- SQL (SQLite): Used for real-time data storage and complex aggregations (GROUP BY, AVG, COUNT).
+- <u>Python<u>: Used for the data simulation and the backend web server.
+- <u>SQL (SQLite)<u>: Used for real-time data storage and complex aggregations (GROUP BY, AVG, COUNT).
 - HTML: Designed a self-refreshing dashboard for live visualization.
 - Flask: A micro-framework used to bridge the SQL database with the Web UI.
 - Linux (Ubuntu): Managed processes, virtual environments, and system-level networking.
