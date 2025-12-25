@@ -36,7 +36,8 @@ This project demonstrates a Live Stream Processing pipeline. It simulates real-t
 ```
 3. Accessing the Insights : Open your browser and navigate to: ```http://127.0.0.1:5000```
 4. SQL Logic :
-```SELECT 
+```
+    SELECT 
     page_path, 
     COUNT(*) as total_hits, 
     AVG(response_time_ms) as avg_latency 
