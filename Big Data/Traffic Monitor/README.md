@@ -20,8 +20,10 @@ This project demonstrates a Live Stream Processing pipeline. It simulates real-t
 ```
     # Create the virtual environment
       python3 -m venv venv
+
     # Activate the environment
       source venv/bin/activate
+
     # Install dependencies
       pip install flask
 ```
@@ -30,6 +32,7 @@ This project demonstrates a Live Stream Processing pipeline. It simulates real-t
     #terminal 1
     source venv/bin/activate
     python3 simulator.py
+
     #terminal 2
     source venv/bin/activate
     python3 app.py
