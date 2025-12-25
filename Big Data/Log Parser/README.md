@@ -15,8 +15,8 @@ This project is a high-speed data pipeline designed to process massive server lo
 
 ## How To Run : 
 1. _Generate the data_:
-   ```python3 gen_logs.py```
+```python3 gen_logs.py```
 2. _Compile the high-performance parser_ :
-   ```g++ -O3 parser.cpp -o parser```
+```g++ -O3 parser.cpp -o parser```
 3.  _Execute the pipeline_ : 
-   ```./parser && python3 analyzer.py```
+```./parser && python3 analyzer.py```
