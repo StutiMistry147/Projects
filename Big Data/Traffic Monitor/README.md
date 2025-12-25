@@ -4,19 +4,19 @@ This project demonstrates a Live Stream Processing pipeline. It simulates real-t
 
 ## Tools :
 - <ins>Python</ins>: Used for the data simulation and the backend web server.
-- <u>SQL (SQLite)<u>: Used for real-time data storage and complex aggregations (GROUP BY, AVG, COUNT).
-- HTML: Designed a self-refreshing dashboard for live visualization.
-- Flask: A micro-framework used to bridge the SQL database with the Web UI.
-- Linux (Ubuntu): Managed processes, virtual environments, and system-level networking.
+- <ins>SQL (SQLite)</ins>: Used for real-time data storage and complex aggregations (GROUP BY, AVG, COUNT).
+- <ins>HTML</ins>: Designed a self-refreshing dashboard for live visualization.
+- <ins>Flask</ins>: A micro-framework used to bridge the SQL database with the Web UI.
+- <ins>Linux (Ubuntu)</ins>: Managed processes, virtual environments, and system-level networking.
 
 ## Architecture : 
-- The Producer (simulator.py): Generates random web traffic data (path, response time) and performs INSERT operations into the database every 0.5 seconds.
-- The Storage (traffic.db): An SQLite database that maintains a persistent record of all incoming "streams."
-- The Consumer (app.py): A Flask server that executes SQL aggregation queries every time the page is viewed or refreshed.
-- The Frontend: A simple HTML interface that uses a meta-refresh tag to poll the server for the latest analytics every 2 seconds.
+- <ins>The Producer (simulator.py)</ins>: Generates random web traffic data (path, response time) and performs INSERT operations into the database every 0.5 seconds.
+- <ins>The Storage (traffic.db)</ins>: An SQLite database that maintains a persistent record of all incoming "streams."
+- <ins>The Consumer (app.py)</ins>: A Flask server that executes SQL aggregation queries every time the page is viewed or refreshed.
+- <ins>The Frontend</ins>: A simple HTML interface that uses a meta-refresh tag to poll the server for the latest analytics every 2 seconds.
 
 ## Execution :
-1. Setting up the environment :
+1. <ins>Setting up the environment</ins> :
 ```
     # Create the virtual environment
       python3 -m venv venv
@@ -25,7 +25,7 @@ This project demonstrates a Live Stream Processing pipeline. It simulates real-t
     # Install dependencies
       pip install flask
 ```
-2. Running the Pipeline : You will need two terminal tabs open simultaneously
+2. <ins>Running the Pipeline</ins> : You will need two terminal tabs open simultaneously
 ```
     #terminal 1
     source venv/bin/activate
@@ -34,8 +34,8 @@ This project demonstrates a Live Stream Processing pipeline. It simulates real-t
     source venv/bin/activate
     python3 app.py
 ```
-3. Accessing the Insights : Open your browser and navigate to: ```http://127.0.0.1:5000```
-4. SQL Logic :
+3. <ins>Accessing the Insights</ins> : Open your browser and navigate to: ```http://127.0.0.1:5000```
+4. <ins>SQL Logic</ins> :
 ```
     SELECT 
     page_path, 
