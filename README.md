@@ -1,29 +1,11 @@
-# My Projects Repository
+Welcome to my repository! 
 
-Welcome to my personal projects repository! 
-
-This repository contains all the projects I create to enhance my skills and showcase my expertise in **C++**,**python**, **Web Development**. It serves as a portfolio of my work, demonstrating my learning journey, problem-solving abilities, and technical growth.  
+I am a second-year Computer Science student currently in my 3rd semester. I’m passionate about low-level programming, system design, and the intersection of data science and software engineering.
 
 ---
 
 ## Skills & Technologies
-
-### C++
-- Data Structures & Algorithms
-- Object-Oriented Programming (OOP)
-- Systems Programming
-- Competitive Programming & Problem Solving
-
-### Web Development
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Python
-- Responsive Design & UI/UX
-- RESTful APIs
-
-### Python
-- Scripting & Automation
-- Data Analysis & Visualization
-- Web Scraping
-- Machine Learning & AI (beginner projects)
-- GUI Development (Tkinter, CustomTkinter)
-
+- <ins>Languages</ins> : Python, C, C++, HTML, SQL
+- <ins>Formal Methods</ins> : Promela (Spin Model Checker)
+- <ins>Data Science</ins> : Data Analytics, Modeling, Intro to Data Science
+- <ins>Tools & OS</ins> : Git, Linux, Operating Systems
