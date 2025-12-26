@@ -31,3 +31,6 @@ gcc -o pan pan.c
 source bigdata_env/bin/activate
 python3 network_analysis.py
 ```
+## Result
+<img width="899" height="471" alt="image" src="https://github.com/user-attachments/assets/e67390ab-ec2f-48a1-8044-c911bc4ba904" />
+<img width="764" height="474" alt="image" src="https://github.com/user-attachments/assets/545b23e9-a06a-4d95-96ff-2a6f399701e9" />
