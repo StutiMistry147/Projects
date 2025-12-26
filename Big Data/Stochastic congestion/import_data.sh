@@ -1,12 +1,18 @@
 #!/bin/bash
-sqlite3 network_data.db <<EOF
+
+DB_NAME="network_data.db"
+CSV_FILE="network_traffic.csv"
+
+rm -f $DB_NAME
+
+sqlite3 $DB_NAME <<EOF
 CREATE TABLE traffic (
     timestamp REAL,
     inter_arrival REAL,
-    size INTEGER
+    packet_size INTEGER
 );
 .mode csv
-.import network_traffic.csv traffic
-.quit
+.import --skip 1 $CSV_FILE traffic
 EOF
-echo "Data imported to SQL."
+
+echo "Done! Data from $CSV_FILE has been loaded into $DB_NAME."
