@@ -14,3 +14,20 @@ The simulator operates across three stages of data maturity:
 - <ins>Formal Model (Promela)</ins>: Models the producer-consumer relationship between the network line and the router buffer to ensure no system hangs occur when the buffer is full.
 - <ins>Storage Layer (SQL)</ins>: A structured repository that utilizes SQLite to manage "Big Data" volumes, allowing for rapid querying and indexing of traffic logs.
 - <ins>Analytics Engine (Python)</ins>: The master observer, utilizing Pandas and Seaborn to perform statistical validation and plot network throughput over time
+
+## Execution 
+1. Run the SPIN model checker to ensure the buffer logic is deadlock-free
+```
+spin -a buffer.pml
+gcc -o pan pan.c
+./pan
+```
+2. Generate Traffic: Compile and run the C++ engine to produce raw CSV data
+```g++ -O3 generator.cpp -o generator && ./generator```
+3. Ingest Data: Use the automated bash script to populate the SQL database.
+```chmod +x import_data.sh && ./import_data.sh```
+4. Perform Analysis: Activate the virtual environment and generate Time-Series plots
+```
+source bigdata_env/bin/activate
+python3 network_analysis.py
+```
