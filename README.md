@@ -13,7 +13,7 @@ I am a second-year student currently in my 4th semester, building high-performan
 2. <ins>Quantitative Analysis</ins>: Python (Pandas, NumPy, Jupyter), SQL
 3. <ins>Frontend/UI</ins>: HTML, CSS, JavaScript
 4. <ins>Tools</ins>: Git, Linux, Shell Scripting
-![Your Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=StutiMistry147&layout=compact&theme=vision-fast-gold)
+![My Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=StutiMistry147layout=compact&theme=vision-fast-gold)
 
 ## Quantitative & Big Data Projects
 - <ins>Trading Backtester</ins>: A Python-based engine designed to simulate and validate trading strategies against historical market data.
