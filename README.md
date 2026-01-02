@@ -7,11 +7,13 @@ I am a second-year student currently in my 4th semester, building high-performan
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </p>
+
 ## Tech Stack
 1. <ins>Performance & Systems</ins>: C, C++, Promela (Spin Model Checker)
 2. <ins>Quantitative Analysis</ins>: Python (Pandas, NumPy, Jupyter), SQL
 3. <ins>Frontend/UI</ins>: HTML, CSS, JavaScript
 4. <ins>Tools</ins>: Git, Linux, Shell Scripting
+![Your Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=StutiMistry147&layout=compact&theme=vision-fast-gold)
 
 ## Quantitative & Big Data Projects
 - <ins>Trading Backtester</ins>: A Python-based engine designed to simulate and validate trading strategies against historical market data.
