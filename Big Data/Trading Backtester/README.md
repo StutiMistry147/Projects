@@ -18,9 +18,10 @@
    ```
 2. ```
    # Terminal 1
-    g++ exchange_sim.cpp -o exchange_sim
-    ./exchange_sim
+       g++ exchange_sim.cpp -o exchange_sim
+       ./exchange_sim
    # Terminal 2
-    python3 exchange.py
+       python3 exchange.py
+   # Terminal 3
+       python3 pl_report.py
    ```
-3. ```python3 pl_report.py```
