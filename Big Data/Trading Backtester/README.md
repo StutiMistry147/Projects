@@ -2,7 +2,6 @@
 ## Overview
 - This project involves developing a formal prototype of a High-Frequency Trading (HFT) Backtester using C++, Python, and the SPIN Model Checker. 
 - The system is designed as a Real-Time Data Pipeline, simulating a stock exchange environment where price updates occur at millisecond intervals.
-## Tools
 
 ## Architecture
 - <ins>Exchange Process (C++)</ins>: Acts as the master data source, generating stochastic market shocks using a Normal Distribution to simulate realistic volatility.
